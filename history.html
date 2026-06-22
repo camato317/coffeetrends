@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="From an Ethiopian legend to the modern café — the story of how coffee conquered the world." />
+  <title>The History of Coffee — Brewed &amp; New</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html#top">
+        <span class="brand-mark">☕</span>
+        <span>Brewed&nbsp;&amp;&nbsp;New</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#trending">Trending</a></li>
+        <li><a href="index.html#drinks">Drinks</a></li>
+        <li><a href="index.html#guide">Guide</a></li>
+        <li><a href="history.html">History</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">The Long Story</p>
+        <h1>The history of coffee.</h1>
+        <p class="hero-sub">
+          From a legend about dancing goats in the Ethiopian highlands to the
+          coffeehouses that fueled revolutions and the espresso machines on every
+          corner — here's how a humble bean changed the world.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#timeline">Jump to the timeline</a>
+          <a class="btn btn-ghost" href="index.html#drinks">Back to drinks</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline -->
+    <section id="timeline" class="history">
+      <h2 class="section-title">A timeline of the bean</h2>
+      <ol class="timeline" id="timeline-list"><!-- entries injected by JS --></ol>
+    </section>
+
+    <!-- Did you know -->
+    <section class="guide">
+      <h2 class="section-title">Did you know?</h2>
+      <div class="guide-grid">
+        <div class="guide-card">
+          <h3>The word "coffee"</h3>
+          <p>It likely traces from the Arabic <em>qahwa</em>, through Turkish <em>kahve</em>, into Italian <em>caffè</em> — and finally English.</p>
+        </div>
+        <div class="guide-card">
+          <h3>"Cappuccino" comes from monks</h3>
+          <p>Named for the brown robes of Capuchin friars, whose color matched espresso blended with milk.</p>
+        </div>
+        <div class="guide-card">
+          <h3>Penny universities</h3>
+          <p>17th-century English coffeehouses charged a penny entry — and the conversation was so rich they earned this nickname.</p>
+        </div>
+        <div class="guide-card">
+          <h3>Espresso means "pressed"</h3>
+          <p>The Italian term reflects both the pressure used to brew it and that it's made fresh, "expressly," for you.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Brewed &amp; New — a demo showcase of trending coffee drinks. Built for fun ☕</p>
+    <p class="muted">Historical dates are widely cited but some origins remain legend rather than documented fact.</p>
+  </footer>
+
+  <script src="history.js"></script>
+</body>
+</html>
